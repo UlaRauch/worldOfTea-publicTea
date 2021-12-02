@@ -6,7 +6,6 @@ public abstract class Tea implements Brewable {
     public int brewTime;
     private double temperature;
     public boolean goodTea = false;
-    public static int nrOfCups;
 
     public Tea(String name, String taste, int brewTime, double temperature) {
         this.name = name;
@@ -20,6 +19,6 @@ public abstract class Tea implements Brewable {
     }
 
     public void drinkTea() {
-        System.out.println("This tea tastes of nothing :(");
+        System.err.println("This tea tastes of nothing :(");
     }
 }

@@ -6,7 +6,6 @@ public class EarlGrey extends Tea {
 
     public EarlGrey() {
         super("Earl Grey", "bergamotte", 3, 100);
-        nrOfCups++;
     }
 
     @Override

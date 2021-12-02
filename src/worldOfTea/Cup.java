@@ -5,7 +5,7 @@ import worldOfTea.Blends.Tea;
 public class Cup {
     public Tea content;
 
-    public Cup(Tea type) {
-        this.content = type;
+    public Cup(Tea blend) {
+        this.content = blend;
     }
 }
