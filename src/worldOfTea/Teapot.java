@@ -6,9 +6,15 @@ import worldOfTea.Blends.Tea;
 import java.util.Scanner;
 
 public class Teapot {
+
+    /*
+    TODO: don't change this class, just learn how to make tea!
+     */
+
     //tea and teaBag are actually redundant, but you can't make tea without a teabag ;)
     public Tea teaBag;
     public Tea tea;
+    public static int nrOfCups;
 
     public void chooseTeaBag(){
         String name;
@@ -26,12 +32,13 @@ public class Teapot {
     }
 
     //as said before, completely redundant
-    //also, this is not how things would be done. This method might return a null object.
-    //TODO: write NoTeaBagException
+    //also, this is not how things should be done. This method might return a null object.
+    //TODO (Ula): write NoTeaBagException - everyone else, ignore this
     public Tea makeTea(int time, double temperature) {
         if (teaBag != null) {
             teaBag.brewTea(time, temperature);
             tea = teaBag;
+            nrOfCups++;
         } else {
             System.err.println("NO TEABAG!");
         }
