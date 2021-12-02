@@ -6,9 +6,9 @@ import worldOfTea.Blends.Tea;
 import java.util.Scanner;
 
 public class Teapot {
-    //tea and teaBag are actually redundant, but you can't make tea without a teabag ;)
-    public Tea teaBag;
-    public Tea tea;
+    //tea and teaBag are actually redundant, it just makes more sense for the tea metaphor
+    private Tea teaBag;
+    private Tea tea;
 
     public void chooseTeaBag(){
         String name;

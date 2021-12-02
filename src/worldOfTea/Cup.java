@@ -3,9 +3,13 @@ package worldOfTea;
 import worldOfTea.Blends.Tea;
 
 public class Cup {
-    public Tea content;
+    private Tea content;
 
-    public Cup(Tea type) {
-        this.content = type;
+    public Cup(Tea tea) {
+        this.content = tea;
+    }
+
+    public Tea getContent() {
+        return content;
     }
 }
