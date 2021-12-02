@@ -26,7 +26,7 @@ public class Teapot {
     }
 
     //as said before, completely redundant
-    //also, this is not how things would be done. This method might return a null object.
+    //also, this is not how things would be done. This method might return a null object...
     //TODO: write NoTeaBagException
     public Tea makeTea(int time, double temperature) {
         if (teaBag != null) {
