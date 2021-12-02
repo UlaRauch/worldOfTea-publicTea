@@ -16,8 +16,7 @@ public class Kitchen {
 
         // 5. check how many cups you've already had. Maybe it's time to stop?
 
-        // 6. We want some privacy!
-        // Go and try what you can hide from the public (in a way that you can still enjoy your tea)
+        // There are bugs in the tea! Find and eliminate them!
 
     }
 }
