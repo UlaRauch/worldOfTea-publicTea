@@ -6,7 +6,6 @@ public class EarlGrey extends Tea {
 
     public EarlGrey() {
         super("Earl Grey", "bergamotte", 3, 100);
-        countNrOfCups();
     }
 
     @Override
@@ -26,7 +25,7 @@ public class EarlGrey extends Tea {
 
         if (time == this.brewTime && temperature == getTemperature()) {
             System.out.println("Enjoy your " + name + "!");
-            setGoodTea(true);
+            goodTea = true;
         } else if (time != this.brewTime && temperature != getTemperature()) {
             System.out.println("Better don't drink this!");
         }

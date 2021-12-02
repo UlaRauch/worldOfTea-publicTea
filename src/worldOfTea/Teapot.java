@@ -9,6 +9,7 @@ public class Teapot {
     //tea and teaBag are actually redundant, it just makes more sense for the tea metaphor
     private Tea teaBag;
     private Tea tea;
+    private static int nrOfCups;
 
     public void chooseTeaBag(){
         String name;
@@ -32,6 +33,7 @@ public class Teapot {
         if (teaBag != null) {
             teaBag.brewTea(time, temperature);
             tea = teaBag;
+            nrOfCups++;
         } else {
             System.err.println("NO TEABAG!");
         }

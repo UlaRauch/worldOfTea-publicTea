@@ -36,7 +36,7 @@ public abstract class Tea implements Brewable {
     }
 
     public void drinkTea() {
-        System.out.println("This tea tastes of nothing :(");
+        System.err.println("This tea tastes of nothing :(");
     }
 }
 
