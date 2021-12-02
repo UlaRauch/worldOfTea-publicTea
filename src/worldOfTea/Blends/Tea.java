@@ -5,6 +5,8 @@ public abstract class Tea implements Brewable {
     public String taste;
     public int brewTime;
     private double temperature;
+    public boolean goodTea = false;
+    public static int nrOfCups;
 
     public Tea(String name, String taste, int brewTime, double temperature) {
         this.name = name;

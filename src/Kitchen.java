@@ -1,16 +1,21 @@
 import worldOfTea.*;
+import worldOfTea.Blends.EarlGrey;
+import worldOfTea.Blends.Tea;
 
 public class Kitchen {
 
     public static void main(String[] args) {
 
-        //You need a teapot! Take care to use the right temperature
+        // 1. You need a teapot!
 
-         //Of course you can't make tea without a tea bag *
+        // 2. Of course, you can't make tea without a tea bag *
 
-         // make yourself a cup of tea
-         //This cup does not exist and if it would exist, it would be empty. So go, make some tea!
-         cupOfTea.content.drinkTea();
+        // 3. make yourself a cupOfTea (take care to use the right temperature and brewing time!)
+
+        // 4. This cup does not exist yet
+        cupOfTea.content.drinkTea();
+
+        // 5. check how many cups you've already had. Maybe it's time to stop?
     }
 }
 // * yes, smartypants, you can. but loose tea does not exist in this exercise. go and find out why ;)
