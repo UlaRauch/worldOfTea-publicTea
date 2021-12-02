@@ -9,7 +9,7 @@ public class EarlGrey extends Tea {
     }
 
     @Override
-    public void drinkTea(Tea tea) {
+    public void drinkTea() {
         if (goodTea) {
             System.out.println("Mmh! This tea tastes like " + taste + "!");
         } else {

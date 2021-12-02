@@ -17,7 +17,8 @@ public class Kitchen {
 
         // 5. check how many cups you've already had. Maybe it's time to stop?
 
-        // 6. there are bugs in the tea! identify and eliminate them with your knowledge of access levels and inheritance
+        // 6. We want some privacy!
+        // Go and try what you can hide from the public (in a way that you can still enjoy your tea)
     }
 }
 // * yes, smartypants, you can. but loose tea does not exist in this exercise. go and find out why ;)
