@@ -23,14 +23,6 @@ public abstract class Tea implements Brewable {
         return goodTea;
     }
 
-    public static int getNrOfCups() {
-        return nrOfCups;
-    }
-
-    public static void countNrOfCups() {
-        Tea.nrOfCups += 1;
-    }
-
     public void setGoodTea(boolean goodTea) {
         this.goodTea = goodTea;
     }
