@@ -20,13 +20,13 @@ Choose a version, check out the respective branche, explore it and prepare yours
 Whatever branch you choose, make yourself familiar with the classes, how they are related and how they work together.
 
 1. **publicTea** (default) this is the branch that you will see as default.
-  - Go to the **Kitchen** and make yourself a **cupOfTea** 🫖 ☕
-  - Everything here is public. Go through each class and experiment with how you can restrict access (and what you have to change to make it still work). There is a hint **hidden** in one of the classes.
-  - **Drink** more **Tea** in the **Kitchen** to check if everything works
+    - Go to the **Kitchen** and make yourself a **cupOfTea** 🫖 ☕
+    - Everything here is public. Go through each class and experiment with how you can restrict access (and what you have to change to make it still work). There is a hint **hidden** in one of the classes.
+    - **Drink** more **Tea** in the **Kitchen** to check if everything works
 2. **publicTeaWithFlaws** - ew! Bugs in the **Tea!**
-  - You have to find and eliminate the bugs, before you can make Tea. After that, you can proceed as described in publicTea
+    - You have to find and eliminate the bugs, before you can make Tea. After that, you can proceed as described in publicTea
 3. **restrictedAccessWithFlaws -** you already have some privacy here, but something doesn't quite work.
-  - Check for bugs!
+    - Check for bugs!
 
 Bonus: so far we have one type of Tea. Create more classes in the **Blends** package for more choice. You also have to tell the teapot about it!
 
